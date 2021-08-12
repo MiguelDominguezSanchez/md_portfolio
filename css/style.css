@@ -70,6 +70,100 @@ body {
 	padding: 100px 0;
 }
 
+/*  */
+
+/* Section 8 */
+
+#section8 {
+	margin-top:50px;
+}
+
+
+
+/*  */
+
+.dropcap {
+  font-size: 36px;
+  margin-right: -5px;
+}
+
+/* Social MA Below */
+
+.badge.social {
+
+  background: #F7DF1E;
+
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 5px 20px 0;
+  padding: 0;
+  -webkit-border-radius: 50px;
+  -moz-boder-radius: 50px;
+  border-radius: 50px;
+
+  color: #000;
+}
+
+.badge.social.twitter:hover  {
+  background: #55acee;
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.facebook:hover  {
+  background: #3b5998;
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.gplus:hover  {
+  background: #db4b39;
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.instagram:hover {
+  background: #bc2a8d;
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.linkedin:hover{
+  background: #2867b2;
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+.badge.social.youtube:hover{
+  background: #FF0000;
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+/*  */
+
+hr {
+  color: #000;
+  opacity:1;
+}
+
+/*  */
+
+
+
+/*  */
+
+/*  */
+
+#about{
+	background: #fff url('../img/MiguelDominguez_Glasses_Portrait.svg') 90% -10px no-repeat;
+
+  padding: 100px;
+}
+
 .aboutImage {
 	max-width: 100%;
 	border-radius: 10px;
@@ -427,14 +521,43 @@ body {
 }
 
 a {
-	color: #000;
+	color: #000 !important;
+	text-decoration: none !important;
 }
 
 a:hover {
-	color: rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.2) !important;
 	text-decoration: none;
 }
 
+/*  */
+
+/* Media queries */
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and down) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {}
+
+/* // Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {}
+
+/* // Ipad 12.5  */
+@media (max-width: 1024px) {
+	#slides {
+		display: none;
+	}
+}
+
+/* // XX-Large devices (larger desktops, 1400px and down) */
+@media (min-width: 1400px) {}
 
 
 

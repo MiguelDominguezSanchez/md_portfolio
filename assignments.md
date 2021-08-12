@@ -31,3 +31,8 @@ Assignments
 – Not working js screening projects by word btn
 
 – Download latest from repo to prevent it from corrupted file
+
+220913
+
+– contact email btn
+  hover  text black
