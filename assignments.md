@@ -1,5 +1,12 @@
 Assignments
 
+211020
+
+– Incorporate own react projects
+
+– Update skillset 
+
+
 210731
 
 – md portfolio Figma
